@@ -1,1 +1,101 @@
-<!-- vanilla work -->
+<!-- DOM vanilla work -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of DOM</title>
+    <!-- style CSS Link -->
+    <link rel="stylesheet" href="./styles/style.css">
+     <!-- favicon Link -->
+     <link rel="shortcut icon" href="./assets/icons/family-tree.ico" type="image/x-icon">
+     <!-- Tailwind link script -->
+     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+     <!-- tailwind customize -->
+     <!-- <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script> -->
+</head>
+<body>
+<header>
+<section class="bg-emerald-200 text-5xl">Some Headings</section>
+<section class="">
+    <h1>
+        DOM project start Heading
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque non suscipit possimus inventore voluptate dolorem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus natus saepe, quam in temporibus itaque a dicta illum nihil inventore
+    </p>
+</section>
+</header>
+<main id="main-container">
+<section class="">
+    <section class="">
+        <h1 class="">
+            Welcome greetings
+        </h1>
+        <ul class="">
+            <li class="">one ul-li</li>
+            <li class="">two ul-li</li>
+            <li class="">three ul-li</li>
+            <li class="">fourth ul-li</li>
+        </ul>
+    </section>
+    <section class="fruits-container">
+        <h1 class="fruits-title">
+            Fruits unordered List
+        </h1>
+        <ul class="">
+            <li class="">Orange</li>
+            <li class="">Fruitty</li>
+            <li class="">Jack</li>
+            <li class="">of all Trades</li>
+        </ul>
+    </section>
+    <section id="places-container" class="large-text">
+        <h1 id="places-title" class="">
+            Places unordered List
+        </h1>
+        <ul id="places-list" class="">
+            <li class="important-places">Top in hills</li>
+            <li class="important-places">community</li>
+            <li class="important-places">Jack</li>
+            <li class="">of all Trades</li>
+            <li class="other-places">Gold Mout</li>
+        </ul>
+    </section>
+</section>
+</main>
+<footer>
+<section class=""></section>
+</footer>
+<script src="./js/append.js"></script>
+<script src="./js/dom.js"></script>
+<script src="./js/styleInJs.js"></script>
+<script>
+    let liCollection = document.getElementsByTagName();
+    // console.log(liCollection);
+    for(let li of liCollection){
+        // console.log(li);
+    }
+    let allHeadings = document.getElementsByTagName('h1');
+    for(let h1 of allHeadings){
+        // console.log(h1.innerText);
+    }
+
+
+    // console.log('adding js dom.js inside html File');
+</script>
+</body>
+</html>
+
+

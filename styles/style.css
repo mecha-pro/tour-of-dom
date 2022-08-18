@@ -1,11 +1,29 @@
 /* ------------------
     main or utilities 
     ------------------*/
-*{
+h1{
+    color: violet;
+}
+.fruits-container li{
+    color: turquoise;
+}
+#fruits-title{
+    color: peru;
+}
+.important-places{
+    color: darkcyan;
+}
+.text-center{
+    text-align: center;
+}
+.large-text{
+    font-size: 3em;
+}
+    /* *{
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-}
+} */
 /* --------------
  Background image
 ----------------- */
